@@ -2,6 +2,7 @@ package com.example.TravelRecord
 import android.content.Intent
 import android.os.Bundle
 import android.util.Log
+import android.view.MenuItem
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.example.TravelRecord.MainActivity
@@ -40,7 +41,16 @@ class SignUpActivity : AppCompatActivity() {
 
             signUp(name, email, password)
         }
+
+        //액션바 이름 설정
+//        supportActionBar?.title="회원 가입"
+
+        //뒤로 가기 버튼 생성
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+
     }
+
+
 
     /**
      * 회원 가입
