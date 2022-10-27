@@ -71,26 +71,42 @@
         app:layout_constraintTop_toBottomOf="@+id/how_btn"
         app:layout_constraintVertical_bias="0.088" />
 
-    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+    <Button
         android:id="@+id/logout_btn"
-        android:layout_width="110dp"
-        android:layout_height="44dp"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
         android:backgroundTint="#dddddd"
-        android:src="@android:drawable/ic_input_add"
-        android:text="  로그아웃"
-        android:textColor="@color/white"
-        android:tint="@null"
-        app:borderWidth="0dp"
-        app:fabSize="normal"
+        android:text="로그아웃"
+        android:textColorLink="#787777"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.946"
+        app:layout_constraintHorizontal_bias="0.95"
         app:layout_constraintStart_toStartOf="parent"
-        app:rippleColor="@color/white"
         tools:ignore="MissingConstraints" />
+
+    <!--    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton-->
+<!--        android:id="@+id/logout_btn"-->
+<!--        android:layout_width="110dp"-->
+<!--        android:layout_height="44dp"-->
+<!--        android:layout_alignParentRight="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginBottom="8dp"-->
+<!--        android:backgroundTint="#dddddd"-->
+<!--        android:src="@android:drawable/ic_input_add"-->
+<!--        android:text="  로그아웃"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:tint="@null"-->
+<!--        app:borderWidth="0dp"-->
+<!--        app:fabSize="normal"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.946"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:rippleColor="@color/white"-->
+<!--        tools:ignore="MissingConstraints" />-->
+
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
